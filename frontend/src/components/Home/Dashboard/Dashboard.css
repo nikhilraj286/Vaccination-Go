@@ -1,0 +1,27 @@
+.bgColor {
+  background-color: #555;
+  color: #fff;
+}
+
+
+.windows {
+  cursor: pointer;
+}
+
+.windows:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+.leftBar > .columns > div {
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 1px solid #aaa;
+}
+
+.leftBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
